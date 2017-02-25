@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _15.Fast_Prime_Checker
+﻿namespace _15.Fast_Prime_Checker
 {
-    class Program
+    using System;
+
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int number = int.Parse(Console.ReadLine());
             for (int counter = 2; counter <= number; counter++)
@@ -22,6 +18,7 @@ namespace _15.Fast_Prime_Checker
                         break;
                     }
                 }
+
                 Console.WriteLine($"{counter} -> {prime}");
             }
         }

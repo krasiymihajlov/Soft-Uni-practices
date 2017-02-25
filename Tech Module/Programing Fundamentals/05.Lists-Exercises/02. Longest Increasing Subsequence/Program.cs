@@ -40,7 +40,6 @@
             }
 
             Console.WriteLine(string.Join(" ", RestoreLIS(listOfNumbers, prevLength, lastIndex)));
-
         }
 
         public static int[] RestoreLIS(int[] listOfNumbers, int[] prev, int lastIndex)

@@ -10,6 +10,7 @@
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
             int maxNumber = GetMax(a, b, c);
+
             Console.WriteLine(maxNumber);
         }
 

@@ -1,7 +1,6 @@
 ﻿namespace _03.Last_K_Numbers_Sums
 {
-    using System;
-    using System.Linq;
+    using System;    
 
     public class Arrays
     {

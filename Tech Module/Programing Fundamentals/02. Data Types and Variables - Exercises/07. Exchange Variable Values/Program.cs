@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _07.Exchange_Variable_Values
+﻿namespace _07.Exchange_Variable_Values
 {
-    class Program
+    using System;
+
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int a = 5;
             int b = 10;
@@ -19,7 +15,6 @@ namespace _07.Exchange_Variable_Values
             Console.WriteLine("After:");
             Console.WriteLine($"a = {b}");
             Console.WriteLine($"b = {c}");
-
         }
     }
 }

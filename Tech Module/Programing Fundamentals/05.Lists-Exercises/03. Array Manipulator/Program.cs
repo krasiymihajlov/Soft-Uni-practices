@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    public class ListExrcises
+    public class ListExercises
     {
         public static void Main()
         {

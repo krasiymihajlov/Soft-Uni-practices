@@ -4,7 +4,7 @@
 
     public class GreaterValues
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             string inputValues = Console.ReadLine();
             if (inputValues == "int")
@@ -12,6 +12,7 @@
                 int firstNumber = int.Parse(Console.ReadLine());
                 int secondNumber = int.Parse(Console.ReadLine());
                 int maxNumber = GetMax(firstNumber, secondNumber);
+
                 Console.WriteLine(maxNumber);
             }
             else if (inputValues == "char")
@@ -19,6 +20,7 @@
                 char firstLetter = char.Parse(Console.ReadLine());
                 char secondLetter = char.Parse(Console.ReadLine());
                 char maxLetter = GetMax(firstLetter, secondLetter);
+
                 Console.WriteLine(maxLetter);
             }
             else if (inputValues == "string")
@@ -26,6 +28,7 @@
                 string firstText = Console.ReadLine();
                 string secondText = Console.ReadLine();
                 string maxText = GetMax(firstText, secondText);
+
                 Console.WriteLine(maxText);
             }
         }

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _03.Practice_Characters_and_Strings
+﻿namespace _03.Practice_Characters_and_Strings
 {
-    class Program
+    using System;
+
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string name1 = "Software University";
             char letter1 = 'B';

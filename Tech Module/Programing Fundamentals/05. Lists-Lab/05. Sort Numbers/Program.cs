@@ -1,10 +1,9 @@
 ﻿namespace _05.Sort_Numbers
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
 
-    public class Lists
+    public class ListsLab
     {
         public static void Main()
         {

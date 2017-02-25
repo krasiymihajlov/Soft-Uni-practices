@@ -4,7 +4,7 @@
 
      public class PrintingTriangle
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             int number = int.Parse(Console.ReadLine());
             PrintFirstTriangle(number);

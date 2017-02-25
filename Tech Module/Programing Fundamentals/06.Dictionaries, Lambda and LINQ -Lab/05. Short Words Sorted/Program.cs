@@ -3,7 +3,7 @@
     using System;    
     using System.Linq;
 
-    public class DictionariesLambdaLinq
+    public class DictionariesLambdaLinqLab
     {
         public static void Main()
         {

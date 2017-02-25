@@ -1,7 +1,6 @@
 ﻿namespace _04.Sieve_of_Eratosthenes
 {
-    using System;
-    using System.Linq;
+    using System;    
 
     public class ArraysExercise
     {

@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class Program
+    public class NumbersInReversedOrder
     {
         public static void Main()
         {

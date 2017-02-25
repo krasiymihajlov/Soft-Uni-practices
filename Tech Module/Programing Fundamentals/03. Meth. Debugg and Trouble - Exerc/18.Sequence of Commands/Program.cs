@@ -1,5 +1,4 @@
-﻿
-namespace _18.Sequence_of_Commands
+﻿namespace _18.Sequence_of_Commands
 {
     using System;
     using System.Linq;

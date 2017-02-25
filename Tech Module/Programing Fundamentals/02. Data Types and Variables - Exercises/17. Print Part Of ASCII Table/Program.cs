@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _17.Print_Part_Of_ASCII_Table
+﻿namespace _17.Print_Part_Of_ASCII_Table
 {
-    class Program
+    using System;
+
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int startNumber = int.Parse(Console.ReadLine());
             int endNumber = int.Parse(Console.ReadLine());            
@@ -16,6 +12,7 @@ namespace _17.Print_Part_Of_ASCII_Table
             {
                 Console.Write((char)counter + " ");
             }
+
             Console.WriteLine();
         }
     }

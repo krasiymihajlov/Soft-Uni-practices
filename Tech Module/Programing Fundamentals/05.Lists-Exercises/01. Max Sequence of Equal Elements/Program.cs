@@ -1,7 +1,6 @@
 ﻿namespace _01.Max_Sequence_of_Equal_Elements
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
 
     public class ListsExercises

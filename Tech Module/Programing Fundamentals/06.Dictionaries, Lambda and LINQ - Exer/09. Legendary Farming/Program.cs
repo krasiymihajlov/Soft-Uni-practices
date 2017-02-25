@@ -106,9 +106,7 @@
                 foreach (var junk in junks)
                 {
                     Console.WriteLine($"{junk.Key}: {junk.Value}");
-                }
-
-            
+                }            
         }
     }
 }

@@ -2,9 +2,9 @@
 {
     using System;
 
-    public class Program
+    public class CalculateTriangleArea
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             double width = double.Parse(Console.ReadLine());
             double height = double.Parse(Console.ReadLine());

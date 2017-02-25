@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _16.Comparing_floats
+﻿namespace _16.Comparing_floats
 {
-    class Program
+    using System;
+
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             double numberA = double.Parse(Console.ReadLine());
             double numberB = double.Parse(Console.ReadLine());           
             double roundingNumberA = Math.Round(numberA, 6);
             double roundingNumberB = Math.Round(numberB, 6);
+
             if (Math.Abs(roundingNumberA) == Math.Abs(roundingNumberB)) 
             {
                 Console.WriteLine("True");

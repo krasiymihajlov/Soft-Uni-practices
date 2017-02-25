@@ -11,7 +11,6 @@
             foreach (var banWord in bannedWords)
             {
                 text = text.Replace(banWord, new string('*', banWord.Length));
-
             }
 
             Console.WriteLine(text);

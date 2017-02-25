@@ -37,10 +37,11 @@
             bool domain = true;
             var lastLetter = text[text.Length - 1];
             var beforeLast = text[text.Length - 2];
-            if (beforeLast == 'u' && ( lastLetter == 's' || lastLetter == 'k'))
+            if (beforeLast == 'u' && (lastLetter == 's' || lastLetter == 'k'))
             {
                 domain = false;
             }
+
             return domain;
         }
     }

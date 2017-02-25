@@ -4,9 +4,10 @@
 
     public class MultiplyEvensByOdds
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            int number = int.Parse(Console.ReadLine());            
+            int number = int.Parse(Console.ReadLine());      
+                  
             Console.WriteLine(GetMultipleOfEvenAndOdd(number));
         }
 

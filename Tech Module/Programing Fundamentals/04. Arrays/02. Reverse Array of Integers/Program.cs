@@ -12,8 +12,7 @@
             var reverseInteger = new int[integers.Length];
             for (int i = 0; i < integers.Length; i++)
             {
-                integers[i] = int.Parse(Console.ReadLine());                
-                           
+                integers[i] = int.Parse(Console.ReadLine());                  
             }
 
             integers = integers.Reverse().ToArray();

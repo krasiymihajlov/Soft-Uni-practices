@@ -4,7 +4,7 @@
 
     public class Blank_Receipt
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             PrintReciept();
         }

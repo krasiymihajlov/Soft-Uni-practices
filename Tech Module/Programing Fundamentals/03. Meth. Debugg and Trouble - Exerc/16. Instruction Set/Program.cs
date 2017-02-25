@@ -2,9 +2,9 @@
 {
     using System;
 
-    class InstructionSet_broken
+    public class InstructionSet_broken
     {
-        static void Main()
+        public static void Main()
         {
             string opCode = Console.ReadLine();
 

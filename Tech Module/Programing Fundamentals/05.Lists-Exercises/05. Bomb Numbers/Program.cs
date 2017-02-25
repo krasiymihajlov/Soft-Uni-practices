@@ -1,7 +1,6 @@
 ﻿namespace _05.Bomb_Numbers
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
 
     public class ListsExrcises
@@ -56,8 +55,7 @@
             
             var sum = numbersOfList.ToList().Sum();
 
-            Console.WriteLine(sum);
-        
+            Console.WriteLine(sum);        
         }
     }
 }

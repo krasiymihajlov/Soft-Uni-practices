@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class DateAndTypes
+    public class DateAndTypesExercises
     {
         public static void Main()
         {

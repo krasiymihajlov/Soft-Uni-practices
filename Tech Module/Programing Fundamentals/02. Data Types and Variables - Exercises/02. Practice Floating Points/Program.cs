@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02.Practice_Floating_Points
+﻿namespace _02.Practice_Floating_Points
 {
-    class Program
+    using System;
+
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             decimal num1 = 3.141592653589793238M;
             double num2 = 1.60217657;

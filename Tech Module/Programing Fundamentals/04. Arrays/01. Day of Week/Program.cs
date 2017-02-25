@@ -2,7 +2,7 @@
 {
     using System;
 
-    public  class Arrays
+    public class Arrays
     {
         public static void Main()
         {

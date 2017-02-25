@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _18.Different_Integers_Size
+﻿namespace _18.Different_Integers_Size
 {
-    class Program
+    using System;
+
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             string inputNumber = Console.ReadLine();
             string output = "";
@@ -20,7 +16,8 @@ namespace _18.Different_Integers_Size
             catch (Exception)
             {
                 output += $"{inputNumber} can't fit in any type";
-            }            
+            }  
+                      
              try
              {
                  sbyte.Parse(inputNumber);
@@ -29,6 +26,7 @@ namespace _18.Different_Integers_Size
              catch (Exception)
              {
              }
+
             try
             {
                 byte.Parse(inputNumber);
@@ -37,6 +35,7 @@ namespace _18.Different_Integers_Size
             catch (Exception)
             {            
             }
+
             try
             {
                 short.Parse(inputNumber);
@@ -45,6 +44,7 @@ namespace _18.Different_Integers_Size
             catch (Exception)
             {
             }
+
             try
             {
                 ushort.Parse(inputNumber);
@@ -53,6 +53,7 @@ namespace _18.Different_Integers_Size
             catch (Exception)
             {
             }
+
             try
             {
                 int.Parse(inputNumber);
@@ -61,6 +62,7 @@ namespace _18.Different_Integers_Size
             catch (Exception)
             {
             }
+
             try
             {
                 uint.Parse(inputNumber);
@@ -69,6 +71,7 @@ namespace _18.Different_Integers_Size
             catch (Exception)
             {
             }
+
             try
             {
                 long.Parse(inputNumber);
@@ -77,6 +80,7 @@ namespace _18.Different_Integers_Size
             catch (Exception)
             {                
             }           
+
             Console.WriteLine(output);  
         }
     }

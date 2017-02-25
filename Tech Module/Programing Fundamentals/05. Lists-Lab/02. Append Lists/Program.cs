@@ -18,7 +18,7 @@
 
                 foreach (var num in newList)
                 {
-                    if (num != String.Empty)
+                    if (num != string.Empty)
                     {
                         printList.Add(num);
                     }

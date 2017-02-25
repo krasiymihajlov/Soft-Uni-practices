@@ -1,7 +1,6 @@
 ﻿namespace _09.Index_of_Letters
 {
     using System;
-    using System.Linq;
 
     public class ArraysExercises
     {

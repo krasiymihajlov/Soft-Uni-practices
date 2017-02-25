@@ -14,6 +14,7 @@
                 var symbol = (char)input[i];
                 Console.Write(symbol);
             }
+
             Console.WriteLine();
         }
     }

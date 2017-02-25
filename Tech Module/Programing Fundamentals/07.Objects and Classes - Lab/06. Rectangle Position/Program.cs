@@ -3,7 +3,7 @@
     using System;
     using System.Linq;
 
-    public class ObjectAndClasses
+    public class ObjectAndClassesLab
     {
         public static void Main()
         {
@@ -47,5 +47,20 @@
 
             return false;
         }
+    }
+
+    public class Rectangle
+    {
+        public int Left { get; set; }
+
+        public int Top { get; set; }
+
+        public int Width { get; set; }
+
+        public int Height { get; set; }
+
+        public int Bottom => Top + Height;
+
+        public int Right => Left + Width;
     }
 }

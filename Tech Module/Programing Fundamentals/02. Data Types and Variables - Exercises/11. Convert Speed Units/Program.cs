@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _11.Convert_Speed_Units
+﻿namespace _11.Convert_Speed_Units
 {
-    class Program
+    using System;
+     
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int meters = int.Parse(Console.ReadLine());
             int inputHours = int.Parse(Console.ReadLine());
@@ -20,6 +16,7 @@ namespace _11.Convert_Speed_Units
             float meterPerSeconds = meters / seconds;
             float kilometerPerHours = (meters / 1000f) / hours;
             float milePerHours = (mile / hours );
+
             Console.WriteLine(meterPerSeconds);
             Console.WriteLine(kilometerPerHours);
             Console.WriteLine(milePerHours);

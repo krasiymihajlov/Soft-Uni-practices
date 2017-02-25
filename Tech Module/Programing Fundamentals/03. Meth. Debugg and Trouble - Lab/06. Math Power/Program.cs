@@ -4,10 +4,11 @@
 
     public class MathPower
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             double number = double.Parse(Console.ReadLine());
             double power = double.Parse(Console.ReadLine());
+
             Console.WriteLine(RaiseToPow(number, power));
         }
 

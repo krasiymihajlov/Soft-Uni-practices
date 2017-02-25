@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Numerics;
-
-namespace _10.Centuries_to_Nanoseconds
+﻿namespace _10.Centuries_to_Nanoseconds
 {
-    class Program
+    using System;
+    using System.Numerics;
+
+    public class DateAndTypesExercises
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             int centuries = int.Parse(Console.ReadLine());
             int years = 100 * centuries;
@@ -20,6 +16,7 @@ namespace _10.Centuries_to_Nanoseconds
             BigInteger milliseconds = 1000 * seconds;
             BigInteger microseconds = 1000 * milliseconds;
             BigInteger nanoseconds = 1000 * microseconds;
+
             Console.WriteLine($"{centuries} centuries = {years} years = {days} days = {hours} hours = {minutes} minutes = {seconds} seconds = {milliseconds} milliseconds = {microseconds} microseconds = {nanoseconds} nanoseconds");
         }
     }

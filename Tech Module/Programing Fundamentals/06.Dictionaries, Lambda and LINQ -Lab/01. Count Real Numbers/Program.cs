@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    public class Dictionaries
+    public class DictionariesLab
     {
         public static void Main()
         {
