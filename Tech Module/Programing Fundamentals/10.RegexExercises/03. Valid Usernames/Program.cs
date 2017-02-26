@@ -12,7 +12,7 @@
                 .Split(new[] { ' ', '/', '\\', '(', ')', '\t' }
                 , StringSplitOptions.RemoveEmptyEntries);
 
-            var regex = new Regex(@"\b[A-Za-z]\w{2,25}\b");
+            var regex = new Regex(@"\b[A-Za-z]\w{2,24}\b");
             var maxSum = 0;
             var validUserName = new List<string>();
             var Lengths = new List<string>();      

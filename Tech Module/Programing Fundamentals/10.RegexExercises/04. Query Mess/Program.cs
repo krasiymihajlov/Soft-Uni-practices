@@ -23,6 +23,7 @@
 
                 foreach (Match match in mathes)
                 {
+
                     var pair = match.ToString().Split('=');
                     var field = pair[0];
                     var value = pair[1];
@@ -42,19 +43,18 @@
                     }
                     else
                     {
-                        var newField = regex.Replace(field.Trim(), " ")
-                            .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).First();
+                        var newField = regex.Replace(field, " ").Trim();
 
-                        var newValue = regex.Replace(value.ToString().Trim(), " "); ;
+                        var newValue = regex.Replace(value, " ").Trim();
 
                         if (!dict.ContainsKey(newField))
                         {
                             dict[newField] = new List<string>();
-                            dict[newField].Add(newValue.Trim());
+                            dict[newField].Add(newValue);
                         }
                         else
                         {
-                            dict[newField].Add(newValue.Trim());
+                            dict[newField].Add(newValue);
                         }
                     }
                 }
@@ -67,13 +67,11 @@
             foreach (var dictionary in result)
             {
                 var field = dictionary.Select(x => x.Key).ToArray();
-                var values = dictionary.Select(x => x.Value).ToArray();
+                var values = dictionary.Select(x => x.Value);
 
                 foreach (var key in field)
                 {
-                    Console.Write($"{key}=[");
-                    Console.Write(string.Join(", ", dictionary[key]));
-                    Console.Write("]");
+                    Console.Write($"{key}=[{string.Join(", ", dictionary[key])}]");
                 }
 
                 Console.WriteLine();
