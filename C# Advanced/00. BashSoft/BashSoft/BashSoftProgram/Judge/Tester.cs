@@ -102,6 +102,5 @@
             string finalPath = directoryPath + @"\Mismatches.txt";
             return finalPath;
         }
-
     }
 }

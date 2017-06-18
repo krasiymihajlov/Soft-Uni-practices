@@ -47,6 +47,33 @@
             return false;
         }
 
+
+        public static void FilterAndTake(string courseName, string givenFilter, int? studentsToTake = null)
+        {
+            if (IsQueryForCoursePossible(courseName))
+            {
+                if (studentsToTake == null)
+                {
+                    studentsToTake = studentsByCourse[courseName].Count;
+                }
+
+                RepositoryFilters.FilterAndTake(studentsByCourse[courseName], givenFilter, studentsToTake.Value);
+            }
+        }
+
+        public static void OrderAndTake(string courseName, string comparision, int? studentsToTake = null)
+        {
+            if (IsQueryForCoursePossible(courseName))
+            {
+                if (studentsToTake == null)
+                {
+                    studentsToTake = studentsByCourse[courseName].Count;
+                }
+
+                RepositorySorters.OrderAndTake(studentsByCourse[courseName], comparision, studentsToTake.Value);
+            }
+        }
+
         private static void ReadData(string fileName)
         {
             string path = SessionData.currentPath + "\\" + fileName;

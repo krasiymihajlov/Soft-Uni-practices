@@ -11,6 +11,7 @@
             OutputWriter.WriteMessage($"{SessionData.currentPath}> ");
             string input = Console.ReadLine().Trim();
 
+
             while (input != EndCommand)
             {
                 CommandInterpreter.InterpredCommand(input);

@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace BashSoftProgram
+﻿namespace BashSoftProgram
 {
+    using System;
     using System.Collections.Generic;
     using System.IO;
 
