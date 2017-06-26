@@ -244,7 +244,7 @@
             var row = int.Parse(input[0]);
             var col = int.Parse(input[1]);
             int[][] matrix = new int[row][];
-            var count = 1;
+            var count = 0;
 
             for (int i = 0; i < row; i++)
             {
