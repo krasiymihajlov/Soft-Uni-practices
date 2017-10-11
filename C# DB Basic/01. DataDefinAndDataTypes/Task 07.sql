@@ -1,0 +1,23 @@
+-- TASK 7 Create Table People
+
+CREATE TABLE People (
+	Id INT IDENTITY NOT NULL,
+	Name NVARCHAR(200) NOT NULL,
+	Picture VARBINARY(MAX),
+	Height DECIMAL(15, 2),
+	Weight DECIMAL(15, 2),
+	Gender BIT NOT NULL, 
+	Birthdate DATETIME NOT NULL,
+	Biography NVARCHAR(MAX) 
+	CONSTRAINT PK_People PRIMARY KEY (Id)
+)
+
+INSERT INTO People
+VALUES 
+('Ivan', NULL, NULL, NULL, 1, 1990-05-02, NULL),
+('Pesho', NULL, NULL, NULL, 1, 1991/05/02, NULL),
+('Ivanka', NULL, NULL, NULL, 0, 1992/05/02, NULL),
+('Ivan40', NULL, NULL, NULL, 1, 1993/05/02, NULL),
+('Gergan', NULL, NULL, NULL, 1, 1994/05/02, NULL)
+
+SELECT * FROM People
