@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Automapper" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P01_Employees.Data\P01_Employees.Data.csproj" />
+    <ProjectReference Include="..\P01_Employees.DtoModels\P01_Employees.DtoModels.csproj" />
+    <ProjectReference Include="..\P01_Employees.Models\P01_Employees.Models.csproj" />
+  </ItemGroup>
+
+</Project>
